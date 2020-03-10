@@ -1,2 +1,7 @@
-# modalanalyse
-After successful completion of the course, students are able to derive the free oscillation eigenvalue problem and interpret its results, i.e. model shapes and natural frequencies, as well as be familiar with the most important numerical solution methods derive reduced order models for multi degree of freedom systems by using an appropriate modal basis Conduct harmonic response analyses of full and reduced systems, incorporating different damping methods, and be familiar with the concept of transfer functions Describe the working principles of measurement equipment for experimental modal analysis, and to use such equipment in practice Extract natural frequencies and mode shapes from measurement data by using various identification techniques, as well as compare experimentally determined modes to computational results based on appropriate criteria
+# VU Modalanalyse
+
+## Team
+Hoffmann Maximilian	
+Mandl Philipp	
+Schreiner Richard	
+Kim Tae-Hyong	01617271
