@@ -1,6 +1,6 @@
 # VU Modalanalyse
 
-## Team
+## Team: (The) Coupled Oscillators
 Hoffmann Maximilian
 
 Mandl Philipp
