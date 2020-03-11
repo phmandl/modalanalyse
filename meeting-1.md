@@ -8,11 +8,7 @@ Mandl Philipp
 Schreiner Richard
 Kim Tae-Hyong (Scretary)
 
-
-//Absent:
-//Julie Payette (recovering from accident)
-
-Main discussion:
+## Main discussion:
 
 At this first meeting we first introduced ourselves to one another, and
 briefly shared our experiences of group work. Afterwards, there was a
