@@ -28,3 +28,16 @@ where we will:
 - discuss the solution for the example problems 1 & 2 prepared by Burt &
 Arthur
 - review the layout of the paper prepared by Edith
+
+## Distribution of work for Exercise 1
+
+Burt Rutan (python coding expert) programmed the functions for vector
+iteration and Rayleigh quotient iteration.
+Julie Payette (good friends with Burt) used Burt’s functions to make
+convergence studies comparing the different algorithms.
+Arthur Casagrande (knew about plate modes) computed the natural
+frequencies of the clamped plate and made plots of the mode shapes.
+Edith Clarke (queen of power-point) collected the results and compiled
+them into a presentation.
+All team members participated equally in the discussion of the results
+and prepared for the workshop together.
