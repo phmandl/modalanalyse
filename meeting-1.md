@@ -1,12 +1,13 @@
-Meeting minutes of 2017/03/12
-Team:
+# Meeting minutes of 2017/03/12
+
+## Team:
 The modal hammers
 Present:
 Burt Rutan (chairperson)
 Edith Clarke (secretary)
 Arthur Casagrande
-Absent:
-Julie Payette (recovering from accident)
+//Absent:
+//Julie Payette (recovering from accident)
 Main discussion:
 At this first meeting we first introduced ourselves to one another, and
 briefly shared our experiences of group work. Afterwards, there was a
