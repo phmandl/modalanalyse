@@ -3,12 +3,17 @@
 ## Team:
 The modal hammers
 Present:
-Burt Rutan (chairperson)
-Edith Clarke (secretary)
-Arthur Casagrande
+Hoffmann Maximilian
+Mandl Philipp
+Schreiner Richard
+Kim Tae-Hyong (Scretary)
+
+
 //Absent:
 //Julie Payette (recovering from accident)
+
 Main discussion:
+
 At this first meeting we first introduced ourselves to one another, and
 briefly shared our experiences of group work. Afterwards, there was a
 heated argument about the team name until we could all agree on
