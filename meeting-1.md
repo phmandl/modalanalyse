@@ -1,12 +1,13 @@
-# Meeting minutes of 2017/03/12
+# Meeting minutes of 2020/03/11
 
 ## Team:
-The modal hammers
+Coupled Oscillators
+
 Present:
+Schreiner Richard (Chairman)
+Kim Tae-Hyong (Scretary)
 Hoffmann Maximilian
 Mandl Philipp
-Schreiner Richard
-Kim Tae-Hyong (Scretary)
 
 ## Main discussion:
 
