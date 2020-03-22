@@ -7,6 +7,8 @@
   - Richard Schreiner
   - Tae-Hyong Kim*
 
+*absent
+
 ## Main Discussion
 1. Discussing final juypter notebook.
 2. Adding final changes and making everything ready for submission.
@@ -19,4 +21,3 @@ QR-Decomponsition fullfills the requirements, howeever, is not capable to direct
 ## Main Insight
 Teamwork via Discord in times of COVID-19 works great. Screen sharing feature saves the day.
 
-*absent
