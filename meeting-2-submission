@@ -1,0 +1,20 @@
+# Meeting minutes of 2020/03/22
+
+## Team: The Coupled Oscillators
+### Roles
+  - Philipp Mandl (chairman)
+  - Richard Schreiner (secretary)
+  - Maximilian Hoffmann
+  - Tae-Hyong Kim (absent)
+
+## Main Discussion
+1. Discussing final juypter notebook
+2. Adding final changes
+3. Showing everyone, what each code line does.
+4. Generating submission PDF.
+
+## Main Difficulty
+In QR-Decompostion the eigenvecotrs are note solved, hwoever, not was not the task.... . However, Eigenvecotrs can be calculated based on vector iteration.
+
+## Main Insight
+The QR algorithm proved to be effective to compute all the eigenvalues. The 
