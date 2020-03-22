@@ -10,9 +10,9 @@
 *absent
 
 ## Main Discussion
-1. Discussing final juypter notebook.
-2. Adding final changes and making everything ready for submission.
-3. Disussing several coding choices.
+1. Discussing final jupyter notebook.
+2. Disussing several coding choices.
+3. Adding final changes and making everything ready for submission.
 4. Generating submission PDF.
 
 ## Main Difficulty
