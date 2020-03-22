@@ -2,19 +2,21 @@
 
 ## Team: The Coupled Oscillators
 ### Roles
-  - Philipp Mandl (chairman)
-  - Richard Schreiner (secretary)
-  - Maximilian Hoffmann
-  - Tae-Hyong Kim (absent)
+  - Maximilian Hoffmann (chairman)
+  - Philip Mandl (secretary)
+  - Richard Schreiner
+  - Tae-Hyong Kim*
 
 ## Main Discussion
-1. Discussing final juypter notebook
-2. Adding final changes
-3. Showing everyone, what each code line does.
+1. Discussing final juypter notebook.
+2. Adding final changes and making everything ready for submission.
+3. Disussing several coding choices.
 4. Generating submission PDF.
 
 ## Main Difficulty
-In QR-Decompostion the eigenvecotrs are note solved, hwoever, not was not the task.... . However, Eigenvecotrs can be calculated based on vector iteration.
+QR-Decomponsition fullfills the requirements, howeever, is not capable to directly calculate the eigenvectors.
 
 ## Main Insight
-The QR algorithm proved to be effective to compute all the eigenvalues. The 
+Teamwork via Discord in times of COVID-19 works great. Screen sharing feature saves the day.
+
+*absent
