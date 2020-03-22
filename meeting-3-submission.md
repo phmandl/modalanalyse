@@ -16,7 +16,7 @@
 4. Generating submission PDF.
 
 ## Main Difficulty
-QR-Decomponsition fullfills the requirements, howeever, is not capable to directly calculate the eigenvectors.
+QR-Decomposition fulfills the requirements, however, is not capable to directly calculate the eigenvectors.
 
 ## Main Insight
 Teamwork via Discord in times of COVID-19 works great. Screen sharing feature saves the day.
