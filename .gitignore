@@ -128,3 +128,13 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+HW2/debugMyAnimation.py
+/.idea/misc.xml
+/.idea/modalanalyse.iml
+/.idea/modules.xml
+/.idea/other.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/dictionaries/Richard.xml
+/HW2/testfunctions.py
+/.idea/vcs.xml
+/.idea/workspace.xml
