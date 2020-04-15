@@ -1,6 +1,6 @@
 # this module defines some utility functions for the course
 
-def Newmark(M,C,K,f,t,u0,gamma=0.5,beta=0.25,v0=None) :
+def Newmark(M, C, K, f, t, u0, gamma=0.5, beta=0.25, v0=None):
     """Newmark time integration
     
     Implements the Newmark-method to integrate 
@@ -38,85 +38,87 @@ def Newmark(M,C,K,f,t,u0,gamma=0.5,beta=0.25,v0=None) :
     from numpy import diff, unique, round, zeros, zeros_like, squeeze, array
     from scipy.sparse import csc_matrix
     from scipy.sparse.linalg import factorized
-    dt = unique(round(diff(t),12))
-    if len(dt) > 1 :
+    dt = unique(round(diff(t), 12))
+    if len(dt) > 1:
         print('time vector must be equally spaced')
-    else :
+    else:
         dt = dt[0]
     # compute necessary parameters
-    a0 = 1./(beta*dt**2)
-    a1 = gamma/(beta*dt)
-    a2 = 1./(beta*dt)
-    a3 = 1./(2.*beta) - 1.
-    a4 = gamma/beta - 1.
-    a5 = dt/2.*(gamma/beta - 2.0)
-    a6 = dt*(1.0-gamma)
-    a7 = gamma*dt
-    
+    a0 = 1. / (beta * dt ** 2)
+    a1 = gamma / (beta * dt)
+    a2 = 1. / (beta * dt)
+    a3 = 1. / (2. * beta) - 1.
+    a4 = gamma / beta - 1.
+    a5 = dt / 2. * (gamma / beta - 2.0)
+    a6 = dt * (1.0 - gamma)
+    a7 = gamma * dt
+
     # convert to sparse
     K = csc_matrix(K)
     M = csc_matrix(M)
     C = csc_matrix(C)
 
     # compute the factorisation
-    Kn = K + a0*M + a1*C # effective system matrix
+    Kn = K + a0 * M + a1 * C  # effective system matrix
     solve_step = factorized(Kn)
-    
+
     # initialize
-    ut = u0 # initial position
-    if v0 is None :
-        vt = zeros_like(ut) # initial velocity
-    at = zeros_like(ut) # initial acceleration
+    ut = u0  # initial position
+    if v0 is None:
+        vt = zeros_like(ut)  # initial velocity
+    at = zeros_like(ut)  # initial acceleration
 
     # check matrix sizes
-    def isSquare(A,N=None) :
+    def isSquare(A, N=None):
         s = A.shape
-        if s[0]==s[1]:
+        if s[0] == s[1]:
             return s[0]
-            if N is not None :
-                if s[0]==N :
+            if N is not None:
+                if s[0] == N:
                     return True
-                else :
-                    print('wrong size: %i != %i'%(s[0],N))
+                else:
+                    print('wrong size: %i != %i' % (s[0], N))
                     return False
-        else :
-            print('not square with shape',s)
+        else:
+            print('not square with shape', s)
             return 0
+
     N = isSquare(M)
-    isSquare(C,N)
-    isSquare(K,N)
+    isSquare(C, N)
+    isSquare(K, N)
     # check vector sizes
-    if not f.shape[0]==N and f.shape[1]==len(t) :
+    if not f.shape[0] == N and f.shape[1] == len(t):
         print('shape of f must be [N, len(t)] with N=K.shape[0]')
-    if not len(u0.shape)==1:
+    if not len(u0.shape) == 1:
         print('u0 must be a vector!')
-    else :
-        if not len(u0) == N :
-            print('len(u0) must be = %i (N=K.shape[0])'%N)
-    
+    else:
+        if not len(u0) == N:
+            print('len(u0) must be = %i (N=K.shape[0])' % N)
+
     # preallocate result
-    u = zeros([N,len(t)])
+    u = zeros([N, len(t)])
     v = zeros_like(u)
     a = zeros_like(u)
 
     # do the time integration
-    for i in range(len(t)) :
+    for i in range(len(t)):
         # compute effective forcing vector
-        ft = squeeze(array(f[:,i])) # forcing vector: extract column, convert to vector
-        ft1 = ft + M.dot(a0*ut + a2*vt + a3*at) + C.dot(a1*ut + a4*vt + a5*at )
+        ft = squeeze(array(f[:, i]))  # forcing vector: extract column, convert to vector
+        ft1 = ft + M.dot(a0 * ut + a2 * vt + a3 * at) + C.dot(a1 * ut + a4 * vt + a5 * at)
         # solve for u at t+dt using the pre-factorized matrix
         ut1 = solve_step(ft1)
         # update v & a
-        at1 = a0*(ut1-ut) - a2*vt - a3*at
-        vt1 = vt + a6*at + a7*at1
+        at1 = a0 * (ut1 - ut) - a2 * vt - a3 * at
+        vt1 = vt + a6 * at + a7 * at1
         # save and prepare next step
-        u[:,i] = ut1
-        v[:,i] = vt1
-        a[:,i] = at1
+        u[:, i] = ut1
+        v[:, i] = vt1
+        a[:, i] = at1
         ut = ut1
         vt = vt1
         at = at1
-    return u,v,a
+    return u, v, a
+
 
 def nullspace(B, atol=1e-13, rtol=0):
     """Compute an approximate basis for the nullspace of B.
