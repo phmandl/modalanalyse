@@ -13,7 +13,7 @@
 
 1. The main reason for todays meeting was to finalize our solution to the homework.
 
-2. Task 1 was explained by Richard to the other teammates. Again,Discords screensharing ability turned out to be very useful. Main insights were:
+2. Task 1 was explained by Richard to the other teammates. Again, Discords screensharing ability turned out to be very useful. Main insights were:
     - Choosing the right timebase for the time integration, i.e. the array evaluated by the integration function, is crucial for the correct computation of the system dynamics. If the timestep is too small, the computational effort becomes unfeasible. If it's too big, essential dynamics are not captured.
     - Animating the displacements in Jupyter can take some time unless one chooses the amount of frames for the callback function carefully. 
 
