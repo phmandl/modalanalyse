@@ -12,7 +12,8 @@ interpreted with the solution from HW2. Next the static pressure displacment par
 correctly. However, all problems were solved with pain and sweat.
 
 ## Main Difficulty
-Application of pressure distribution on the surfaces. Furthermore, building the rotation matrix is a pain in the ass.
+Application of pressure distribution on the surfaces. Furthermore, building the rotation matrix is a pain in the ass. 
 
 ## Main Insight
 When extracting notes one needs to be really careful when replacing them again.
+Plotting the displacement with different modal reduced systems yield two curves and a problem.
