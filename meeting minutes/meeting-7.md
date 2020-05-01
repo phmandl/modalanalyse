@@ -15,5 +15,5 @@ correctly. However, all problems were solved with pain and sweat.
 Application of pressure distribution on the surfaces. Furthermore, plotting the results in a usefull manner is challenging.
 
 ## Main Insight
-When extracting notes one needs to be really careful when replacing them again.
+When extracting nodes one needs to be really careful when replacing them again.
 Plotting the time depending displacments via different modal reduced systems yield two different solutions. This needs further investigation from our side.
