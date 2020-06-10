@@ -2,13 +2,15 @@ Fragen für Mittwoch 10.06.2020:
 -----------------------------------
 
 # Task 1: Find Peaks in the Transfer Functions
-	#) wirklich drive-point accelerance für peak finding
-	#) wirklich von Hand anpassen?
+
+
 	#) auf welche Methode vertrauen (Peak-Amplitude, Quadrature Response or Maximum Quadrature Component)
-		=> Ergebnisse stimmen nicht ganz überein.
-	#) all transfer functions in one plot? => magnitude, real and imaginary? up to 150Hz?
-	#) one plot per part? => for each transfer function?
+		=> Ergebnisse stimmen nicht ganz überein. => kann aussuchen welche ich nehme
+	#) all transfer functions in one plot? => for all mesurement points
+	#) one plot per part? => magnitude, real and imaginary? up to 150Hz?
 	#) one plot per peak? => all transfer functions?
+	#) Half power wo peaks nahe aneinander sind? => ins Thal legen
+
 
 # Cycle fitting:
 	#) different transfer function
