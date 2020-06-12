@@ -1,4 +1,4 @@
-### Meeting minutes of 2020/06/12 (09:00-10:00)
+### Meeting minutes of 2020/06/12 (09:00-10:45)
 
 #### Present:
 
